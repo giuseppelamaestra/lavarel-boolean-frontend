@@ -1,0 +1,108 @@
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #337069;
+    color: #a84d58;
+    padding:2rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    display:flex;
+
+}
+
+    li{
+        list-style: none;
+        border-bottom: 1px solid #e0e0e0;
+        margin-right:2rem;
+        text-decoration: none;
+        padding:0.70rem;
+        a{
+            font-size:1.1rem;
+            text-decoration: none;
+            color: #a84d58;
+
+        }
+    }
+
+    li:hover {
+        background-color:#4e8881;
+        transition:0.3s ease-in-out;
+        border-radius:10px;
+        border-bottom:3px solid rgba(255, 255, 255, 0.515);
+    }
+
+    h3{
+        color:#a84450;
+        margin-bottom:2rem;
+        margin-top:3rem;
+        text-align: center;
+    }
+    p{
+        padding-top:1rem;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #337069;
+    margin-bottom: 20px;
+    }
+        .container{
+            background-color:#0e1108;
+            font-family: Arial, sans-serif;
+            color:#f8faf5;
+            
+        }
+        .contain{
+            padding:2rem;
+        }
+        .mycontainer{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            padding:3rem;
+            width:1000px;
+            margin:0 auto;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+
+            .about:hover{
+                font-size:22px;
+                transition: background-color 0.5s ease-in;
+                }
+                
+                .contacts{
+                    margin-top:5rem;
+                }
+                .contacts li:hover{
+                    background-color: #0a0e06;
+                }
+
+        .logo{
+            color:#ffff;
+            font-weight: bolder;
+            font-size:2rem;
+            justify-content: flex-start;
+        }
+        .singlecocktail{
+            background-color: #bba0a3 ;
+            margin:2rem;
+            padding:1rem;
+            width:230px;
+            border-radius:10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-weight: 500;
+
+            
+        }
+        .cocktails{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-around;
+        }
